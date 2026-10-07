@@ -29,6 +29,7 @@ function DownloadHero() {
       />
 
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
+
         <div className="mx-auto max-w-4xl text-center">
 
           {/* Page Label */}
@@ -36,32 +37,16 @@ function DownloadHero() {
             Teen Patti Gold Download
           </span>
 
-          {/* Single H1 */}
-          <h1
-            id="download-page-title"
-            className="mt-5 text-4xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
-          >
-            Teen Patti Gold Download
-            <span className="block text-yellow-500">
-              3 Patti Game in Pakistan
-            </span>
-          </h1>
+          {/* Game Image FIRST */}
+          <div className="relative mx-auto mt-7 max-w-2xl">
 
-          {/* Intro */}
-          <p className="mx-auto mt-5 max-w-3xl text-base leading-8 text-gray-600 sm:text-lg">
-            Learn how to access Teen Patti Gold, understand the 3 Patti game
-            format, check device requirements, and review important information
-            before installing or playing an online card game in Pakistan.
-          </p>
-
-          {/* Game Image */}
-          <div className="relative mx-auto mt-8 max-w-2xl">
             <div
               aria-hidden="true"
               className="absolute -inset-4 rounded-3xl bg-yellow-400/10 blur-2xl"
             />
 
             <div className="relative overflow-hidden rounded-2xl border border-gray-300 bg-white p-1.5 shadow-xl shadow-gray-400/30">
+
               <a
                 href={GAME_URL}
                 target="_blank"
@@ -76,20 +61,21 @@ function DownloadHero() {
                   height="450"
                   loading="eager"
                   fetchPriority="high"
-                  className="block h-[220px] w-full rounded-xl object-cover transition duration-300 hover:scale-[1.02] sm:h-[280px]"
+                  className="block h-[220px] w-full rounded-xl object-cover transition duration-300 hover:scale-[1.02] sm:h-[280px] md:h-[320px]"
                 />
               </a>
+
             </div>
           </div>
 
-          {/* Action Buttons */}
-          <div className="mt-9 flex flex-wrap justify-center gap-4">
+          {/* Action Buttons SECOND */}
+          <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
 
             <a
               href={GAME_URL}
               target="_blank"
               rel="nofollow sponsored noopener"
-              className="group inline-flex items-center gap-3 rounded-xl bg-yellow-400 px-7 py-3.5 font-bold text-gray-900 shadow-lg shadow-yellow-500/20 transition-all duration-300 hover:-translate-y-1 hover:bg-yellow-300 hover:shadow-xl"
+              className="group inline-flex w-full items-center justify-center gap-3 rounded-xl bg-yellow-400 px-7 py-3.5 font-bold text-gray-900 shadow-lg shadow-yellow-500/20 transition-all duration-300 hover:-translate-y-1 hover:bg-yellow-300 hover:shadow-xl sm:w-auto"
               aria-label="Open Teen Patti Gold download"
             >
               <FaDownload aria-hidden="true" />
@@ -104,10 +90,32 @@ function DownloadHero() {
 
             <Link
               to="/about"
-              className="rounded-xl border border-gray-300 bg-white px-7 py-3.5 font-bold text-gray-800 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:bg-gray-50 hover:shadow-md"
+              className="w-full rounded-xl border border-gray-300 bg-white px-7 py-3.5 text-center font-bold text-gray-800 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:bg-gray-50 hover:shadow-md sm:w-auto"
             >
               Learn About 3 Patti
             </Link>
+
+          </div>
+
+          {/* H1 + Intro AFTER Image & Buttons */}
+          <div className="mx-auto mt-10 max-w-4xl">
+
+            <h1
+              id="download-page-title"
+              className="text-4xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-5xl lg:text-6xl"
+            >
+              Teen Patti Gold Download
+              <span className="block text-yellow-500">
+                3 Patti Game in Pakistan
+              </span>
+            </h1>
+
+            <p className="mx-auto mt-5 max-w-3xl text-base leading-8 text-gray-600 sm:text-lg">
+              Learn how to access Teen Patti Gold, understand the 3 Patti game
+              format, check device requirements, and review important
+              information before installing or playing an online card game in
+              Pakistan.
+            </p>
 
           </div>
 
@@ -149,6 +157,7 @@ function DownloadHero() {
           <div className="mt-12 grid gap-4 sm:grid-cols-3">
 
             <div className="rounded-2xl border border-gray-300 bg-white p-6 text-center shadow-md shadow-gray-300/40 transition-all duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-lg">
+
               <div className="flex items-center justify-center gap-2 text-3xl font-extrabold text-yellow-500">
                 <FaMobileAlt
                   aria-hidden="true"
@@ -160,9 +169,11 @@ function DownloadHero() {
               <p className="mt-2 text-sm text-gray-600">
                 Designed for a convenient mobile card-game experience.
               </p>
+
             </div>
 
             <div className="rounded-2xl border border-gray-300 bg-white p-6 text-center shadow-md shadow-gray-300/40 transition-all duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-lg">
+
               <div className="text-3xl font-extrabold text-yellow-500">
                 3 Patti
               </div>
@@ -170,9 +181,11 @@ function DownloadHero() {
               <p className="mt-2 text-sm text-gray-600">
                 Learn the traditional three-card game format.
               </p>
+
             </div>
 
             <div className="rounded-2xl border border-gray-300 bg-white p-6 text-center shadow-md shadow-gray-300/40 transition-all duration-300 hover:-translate-y-1 hover:border-yellow-400 hover:shadow-lg">
+
               <div className="text-3xl font-extrabold text-yellow-500">
                 Simple
               </div>
@@ -180,9 +193,11 @@ function DownloadHero() {
               <p className="mt-2 text-sm text-gray-600">
                 Clear information for new and returning players.
               </p>
+
             </div>
 
           </div>
+
         </div>
       </div>
     </section>
