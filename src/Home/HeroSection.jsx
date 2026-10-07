@@ -144,7 +144,7 @@ function HeroSection() {
                   If you are searching for a Teen Patti game download in
                   Pakistan, always check the source before installing an
                   application. Use a trusted website or recognized app store
-                  where possible, verify the application information and avoid
+                  where possible, verify and the application information and avoid
                   modified files from unknown sources.
                 </p>
 
