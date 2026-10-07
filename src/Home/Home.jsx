@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import HeroSection from "./HeroSection";
 import ContentSection from "./ContentSection";
 import Keyword from "./Keyword";
+import Question from "./Question";
 
 function Home() {
   const title = "Teen Patti Gold – 3 Patti Game in Pakistan";
@@ -66,6 +67,7 @@ function Home() {
       <HeroSection />
       <ContentSection />
       <Keyword/>
+      <Question/>
     </>
   );
 }

@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import AboutHero from "./AboutHero";
 import AboutContent from "./AboutContent";
 import Keyword from "./Keyword";
+import Question from "./Question";
 
 function About() {
   return (
@@ -74,6 +75,7 @@ function About() {
         <AboutHero />
         <AboutContent />
         <Keyword/>
+        <Question/>
       </main>
     </>
   );
